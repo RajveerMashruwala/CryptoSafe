@@ -3,6 +3,9 @@
 Desktop prototype: files are encrypted on your machine with **AES-256-GCM**, each file key is wrapped per recipient with **RSA-3072 OAEP (SHA-256)**, integrity is verified with **SHA-256**, and each user's RSA private key is stored encrypted under a **PBKDF2-HMAC-SHA256** key derived from the user's password.
 
 **No database server needed.** Data is stored in an embedded SQLite file, so there is nothing to install except Java.
+## Getting started
+git clone https://github.com/RajveerMashruwala/CryptoSafe.git
+cd CryptoSafe-Vault
 
 ## Requirements
 - JDK 17 or newer (check with `javac -version`)
