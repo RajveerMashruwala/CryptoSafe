@@ -5,7 +5,7 @@ Desktop prototype: files are encrypted on your machine with **AES-256-GCM**, eac
 **No database server needed.** Data is stored in an embedded SQLite file, so there is nothing to install except Java.
 ## Getting started
 git clone https://github.com/RajveerMashruwala/CryptoSafe.git
-cd CryptoSafe-Vault
+cd CryptoSafe
 
 ## Requirements
 - JDK 17 or newer (check with `javac -version`)
